@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "context-tools"
+version = "0.1.0"
+description = ""
+authors = ["Icy-Thought <icy-thought@pm.me>"]
+# readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.11.3"
+coloredlogs = "^15.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+contextproject = "context_tools.contextproject:main"
